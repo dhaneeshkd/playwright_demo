@@ -37,4 +37,5 @@ test ("API POST" , async ({request})=>{
     expect(postbody.name).toBe("Dhaneesh");
     expect(postbody.classname).toBe("12B");
     expect(postbody.rollnumber).toBe(6);
+    expect(postbody.rollnumber).toBe(6);
 })
